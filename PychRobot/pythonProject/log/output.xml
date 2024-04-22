@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-04-22T10:40:26.806142" rpa="false" schemaversion="5">
+<suite id="s1" name="TestSuite2" source="C:\Users\pc\PychRobot\pythonProject\GlobalTestSuite\TestSuiteA\TestSuite2.robot">
+<test id="s1-t1" name="Test Skip i Skip If" line="59">
+<kw name="Repeat Keyword" owner="BuiltIn">
+<msg time="2024-04-22T10:40:26.853495" level="INFO">Repeating keyword, round 1/3.</msg>
+<kw name="Log Info">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-22T10:40:26.856485" level="INFO">this log will be 3 times</msg>
+<arg>${log_message}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-22T10:40:26.856485" elapsed="0.000000"/>
+</kw>
+<arg>this log will be 3 times</arg>
+<status status="PASS" start="2024-04-22T10:40:26.855487" elapsed="0.001994"/>
+</kw>
+<msg time="2024-04-22T10:40:26.857481" level="INFO">Repeating keyword, round 2/3.</msg>
+<kw name="Log Info">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-22T10:40:26.857481" level="INFO">this log will be 3 times</msg>
+<arg>${log_message}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-22T10:40:26.857481" elapsed="0.000000"/>
+</kw>
+<arg>this log will be 3 times</arg>
+<status status="PASS" start="2024-04-22T10:40:26.857481" elapsed="0.000000"/>
+</kw>
+<msg time="2024-04-22T10:40:26.857481" level="INFO">Repeating keyword, round 3/3.</msg>
+<kw name="Log Info">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-22T10:40:26.858478" level="INFO">this log will be 3 times</msg>
+<arg>${log_message}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-22T10:40:26.858478" elapsed="0.000000"/>
+</kw>
+<arg>this log will be 3 times</arg>
+<status status="PASS" start="2024-04-22T10:40:26.857481" elapsed="0.000997"/>
+</kw>
+<arg>3 times</arg>
+<arg>Log Info</arg>
+<arg>this log will be 3 times</arg>
+<doc>Executes the specified keyword multiple times.</doc>
+<status status="PASS" start="2024-04-22T10:40:26.853495" elapsed="0.004983"/>
+</kw>
+<kw name="Skip If" owner="BuiltIn">
+<msg time="2024-04-22T10:40:26.858478" level="SKIP">'robotframework' != 'robot'</msg>
+<arg>'${EXPECTED}' != 'robot'</arg>
+<doc>Skips the rest of the current test if the ``condition`` is True.</doc>
+<status status="SKIP" start="2024-04-22T10:40:26.858478" elapsed="0.000000">'robotframework' != 'robot'</status>
+</kw>
+<kw name="Skip" owner="BuiltIn">
+<doc>Skips the rest of the current test.</doc>
+<status status="NOT RUN" start="2024-04-22T10:40:26.858478" elapsed="0.000000"/>
+</kw>
+<kw name="Repeat Keyword" owner="BuiltIn">
+<arg>3 times</arg>
+<arg>Log Info</arg>
+<arg>this log will be 3 times</arg>
+<doc>Executes the specified keyword multiple times.</doc>
+<status status="NOT RUN" start="2024-04-22T10:40:26.858478" elapsed="0.000998"/>
+</kw>
+<kw name="Log Info" type="TEARDOWN">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-22T10:40:26.859476" level="INFO">it will be executed even if there was a skip earlier</msg>
+<arg>${log_message}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-22T10:40:26.859476" elapsed="0.000000"/>
+</kw>
+<arg>it will be executed even if there was a skip earlier</arg>
+<status status="PASS" start="2024-04-22T10:40:26.859476" elapsed="0.000000"/>
+</kw>
+<doc>Potestujemy Skip</doc>
+<status status="SKIP" start="2024-04-22T10:40:26.852498" elapsed="0.006978">'robotframework' != 'robot'</status>
+</test>
+<doc>Testy dzień 2 Robot //Tests Day 2 Robot</doc>
+<status status="SKIP" start="2024-04-22T10:40:26.823085" elapsed="0.037388"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="0" skip="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="0" skip="1" id="s1" name="TestSuite2">TestSuite2</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-04-22T10:40:26.801158" level="WARN">Error in file 'C:\Users\pc\PychRobot\pythonProject\GlobalTestSuite\TestSuiteA\TestSuite2.robot' on line 27: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>
